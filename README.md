@@ -1,21 +1,20 @@
-```{=html}
+``
 <h1 align="center">
 ```
 🚀 ArthSena -- Student Budget Tracker & Financial Intelligence System
-```{=html}
+``
 </h1>
-```
-```{=html}
+``
 <p align="center">
 ```
-`<img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=14B8A6&center=true&vCenter=true&width=800&lines=Track+Smart.+Spend+Wise.;AI-Powered+Financial+Intelligence;Built+for+Students+Living+Independently;Hackathon+Ready+FinTech+Platform" />`{=html}
-```{=html}
+`<img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=14B8A6&center=true&vCenter=true&width=800&lines=Track+Smart.+Spend+Wise.;AI-Powered+Financial+Intelligence;Built+for+Students+Living+Independently;Hackathon+Ready+FinTech+Platform" />
+``
 </p>
 ```
 
 ------------------------------------------------------------------------
 
-```{=html}
+``
 <p align="center">
 ```
 `<img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" />`{=html}
@@ -23,7 +22,7 @@
 `<img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql" />`{=html}
 `<img src="https://img.shields.io/badge/Bootstrap-Frontend-7952B3?style=for-the-badge&logo=bootstrap" />`{=html}
 `<img src="https://img.shields.io/badge/Docker-Deployment-2496ED?style=for-the-badge&logo=docker" />`{=html}
-```{=html}
+``
 </p>
 ```
 
@@ -168,10 +167,10 @@ Backend Core \| AI Engineer \| Backend Logic \| Frontend \| DevOps
 
 ------------------------------------------------------------------------
 
-```{=html}
+``
 <p align="center">
 ```
-Built with 💙 by Team ArthSena
-```{=html}
+Built with 💙 by Team tech innovator 
+``
 </p>
 ```
