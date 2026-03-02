@@ -1,0 +1,21 @@
+{
+  "name": "@caffeine/template-app",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=7.0.0",
+    "npm": "please use pnpm"
+  },
+  "scripts": {
+    "start": "powershell -ExecutionPolicy Bypass -File ./scripts/start-app.ps1",
+    "dev": "npm --prefix src/frontend run dev",
+    "build": "corepack pnpm -r --if-present run build",
+    "frontend:full": "corepack pnpm --filter @caffeine/template-frontend run build && corepack pnpm --filter @caffeine/template-frontend run preview -- --host --port 4173",
+    "typecheck": "corepack pnpm -r --if-present run typecheck",
+    "check": "corepack pnpm -r --if-present run check",
+    "fix": "corepack pnpm -r --if-present run fix"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.4"
+  }
+}
