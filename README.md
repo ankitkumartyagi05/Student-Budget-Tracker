@@ -1,219 +1,177 @@
-🚀 ArthSena
-💸 Student Budget Tracker & Financial Intelligence System
-<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3500&color=14B8A6&center=true&vCenter=true&width=900&lines=Track+Smart.+Spend+Wise.;AI-Powered+Financial+Intelligence;Built+for+Independent+Students;Hackathon-Ready+FinTech+Platform" /> </p>
-<p align="center"> <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" /> <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi" /> <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql" /> <img src="https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge&logo=bootstrap" /> <img src="https://img.shields.io/badge/Docker-Deployment-2496ED?style=for-the-badge&logo=docker" /> <img src="https://img.shields.io/badge/Hackathon-Ready-orange?style=for-the-badge" /> </p>
-🌟 Vision
+```{=html}
+<h1 align="center">
+```
+🚀 ArthSena -- Student Budget Tracker & Financial Intelligence System
+```{=html}
+</h1>
+```
+```{=html}
+<p align="center">
+```
+`<img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=14B8A6&center=true&vCenter=true&width=800&lines=Track+Smart.+Spend+Wise.;AI-Powered+Financial+Intelligence;Built+for+Students+Living+Independently;Hackathon+Ready+FinTech+Platform" />`{=html}
+```{=html}
+</p>
+```
 
-ArthSena is not just an expense tracker.
-It is a Financial Intelligence System built for students living independently.
+------------------------------------------------------------------------
 
-✨ Track daily expenses
-📊 Manage monthly budgets
-🧠 Analyze financial behavior
-🚨 Get intelligent alerts
-🤝 Split shared expenses
-😌 Reduce financial stress
+```{=html}
+<p align="center">
+```
+`<img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" />`{=html}
+`<img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi" />`{=html}
+`<img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql" />`{=html}
+`<img src="https://img.shields.io/badge/Bootstrap-Frontend-7952B3?style=for-the-badge&logo=bootstrap" />`{=html}
+`<img src="https://img.shields.io/badge/Docker-Deployment-2496ED?style=for-the-badge&logo=docker" />`{=html}
+```{=html}
+</p>
+```
 
-🎯 Problem Statement
+------------------------------------------------------------------------
+
+## 🌟 Project Vision
+
+ArthSena is not just an expense tracker.\
+It is a **Financial Intelligence Platform** designed for students to:
+
+✔ Track daily expenses\
+✔ Manage monthly budgets\
+✔ Analyze financial behavior\
+✔ Receive intelligent alerts\
+✔ Split shared expenses smartly\
+✔ Reduce financial stress
+
+------------------------------------------------------------------------
+
+## 🎯 Problem Statement
 
 Students living away from home often:
 
-Lose track of spending
+-   Lose track of spending\
+-   Overspend in specific categories\
+-   Face month-end shortages\
+-   Experience financial stress\
+-   Have conflicts over shared expenses
 
-Overspend in key categories
+ArthSena solves this with **data-driven intelligence**.
 
-Face month-end shortages
+------------------------------------------------------------------------
 
-Borrow frequently
+## 🧠 Core Features
 
-Experience conflicts in shared expenses
+### 🔐 Authentication System
 
-ArthSena solves this using data-driven financial intelligence.
+-   Secure JWT-based login
+-   Password hashing using bcrypt
+-   Protected routes
 
-🧠 Core Modules
-🔐 Authentication System
+### 💸 Expense Management
 
-Secure JWT-based login
+-   Add / Edit / Delete expenses
+-   Category filtering
+-   Monthly tracking
 
-Password hashing with bcrypt
+### 📊 Budget Control
 
-Protected routes
+-   Category-wise monthly budget
+-   Auto percentage tracking
+-   Overspending alerts
 
-Scalable user management
+### 🚨 Intelligent Alert System
 
-💸 Expense Management
+-   75% Warning
+-   90% Critical Alert
+-   100% Exceeded Alert
+-   Pattern-based overspending detection
 
-Add / Edit / Delete expenses
+### 🤖 Financial Intelligence Engine
 
-Category filtering
+-   Income-to-expense ratio
+-   Borrowing risk detection
+-   Financial stress analysis
+-   Financial Score (0--100)
+-   Personalized saving recommendations
 
-Monthly expense tracking
+### 🏠 Shared Expense Module
 
-Spending breakdown visualization
+-   Create groups
+-   Equal / custom split
+-   Track settlements
+-   Suggest who owes whom
 
-📊 Budget Control Engine
+------------------------------------------------------------------------
 
-Category-wise monthly budgets
+## 🏗 System Architecture
 
-Auto percentage tracking
+Frontend → FastAPI Backend → Financial Intelligence Engine → PostgreSQL
+Database
 
-Live budget usage meter
+------------------------------------------------------------------------
 
-Overspending alerts
+## 🧰 Technology Stack
 
-🚨 Intelligent Alert System
+Frontend: HTML5, CSS3, JavaScript, jQuery, Bootstrap 5, Three.js\
+Backend: Python 3.10, FastAPI, Uvicorn\
+Database: PostgreSQL, SQLAlchemy, Alembic\
+Security: JWT, bcrypt\
+DevOps: Docker, GitHub, Render, Vercel
 
-⚠ 75% usage warning
+------------------------------------------------------------------------
 
-🔴 90% critical alert
+## 📊 Financial Score Innovation
 
-🚫 100% exceeded alert
+Financial Score (0--100) is calculated based on:
 
-📈 Pattern-based overspending detection
+-   Budget discipline
+-   Overspending frequency
+-   Emergency savings
+-   Borrowing behavior
+-   Stress level
+-   Income ratio
 
-🤖 Financial Intelligence Engine
+This transforms the app into a **behavior-based financial advisor**.
 
-Analyzes:
+------------------------------------------------------------------------
 
-Income-to-expense ratio
+## 🚀 Getting Started
 
-Borrowing behavior
+### Clone Repository
 
-Budget discipline
-
-Emergency savings strength
-
-Financial stress indicators
-
-Generates:
-
-✔ Financial Score (0–100)
-✔ Risk detection
-✔ Personalized saving recommendations
-✔ Financial health insights
-
-This transforms ArthSena into a behavior-based financial advisor.
-
-🏠 Shared Expense Module
-
-Perfect for hostel & flat life.
-
-Create expense groups
-
-Equal / custom split
-
-Settlement tracking
-
-Suggest who owes whom
-
-🏗 System Architecture
-
-Frontend (Bootstrap + JS)
-↓
-FastAPI Backend
-↓
-Financial Intelligence Engine
-↓
-PostgreSQL Database
-
-Clean. Modular. Scalable.
-
-🧰 Technology Stack
-🎨 Frontend
-
-HTML5
-
-CSS3
-
-JavaScript
-
-jQuery
-
-Bootstrap 5
-
-Three.js
-
-⚙ Backend
-
-Python 3.10
-
-FastAPI
-
-Uvicorn
-
-SQLAlchemy
-
-Alembic
-
-🗄 Database
-
-PostgreSQL
-
-🔐 Security
-
-JWT Authentication
-
-bcrypt Password Hashing
-
-☁ DevOps
-
-Docker
-
-GitHub
-
-Render
-
-Vercel
-
-📊 Financial Score Innovation
-
-Financial Score (0–100) is calculated based on:
-
-Budget discipline
-
-Overspending frequency
-
-Emergency savings ratio
-
-Borrowing dependency
-
-Income utilization efficiency
-
-Stress indicators
-
-ArthSena is not reactive.
-It is predictive and behavior-driven.
-
-🚀 Getting Started
-Clone Repository
-git clone https://github.com/your-username/ArthSena.git
+git clone https://github.com/your-username/ArthSena.git\
 cd ArthSena
-Run Backend
-cd backend
-pip install -r requirements.txt
+
+### Run Backend
+
+cd backend\
+pip install -r requirements.txt\
 uvicorn app.main:app --reload
-Run with Docker
+
+### Run with Docker
+
 docker-compose up --build
-🔮 Future Enhancements
 
-ML-based expense prediction
+------------------------------------------------------------------------
 
-Student financial classification
+## 🔮 Future Enhancements
 
-Bank API integration
+-   ML-based expense prediction
+-   User financial classification
+-   Bank API integration
+-   Mobile app version
+-   Real-time notifications
 
-Mobile app version
+------------------------------------------------------------------------
 
-Real-time notifications
+## 👥 Team ArthSena
 
-AI financial assistant
+Backend Core \| AI Engineer \| Backend Logic \| Frontend \| DevOps
 
-👥 Team ArthSena
+------------------------------------------------------------------------
 
-Backend Core
-AI Engineer
-Backend Logic
-Frontend Developer
-DevOps Engineer
-
-<p align="center"> 💙 Built by Team ArthSena | Kokothon Project </p>
+```{=html}
+<p align="center">
+```
+Built with 💙 by Team ArthSena
+```{=html}
+</p>
+```
